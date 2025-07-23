@@ -1,186 +1,254 @@
-<a href="#main-content" class="skip-link sr-only focus:not-sr-only"
-  >Skip to main content</a
->
-<nav
-  aria-label="Main navigation"
-  class="navbar lg:flex grid grid-cols-3 lg:min-h-12 min-h-44 z-50 bg-primary p-0 px-4 sm:px-8 md:px-12 lg:px-16 min-w-full lg:justify-center justify-around lg:items-end"
->
-  <a
-    class="lg:hidden grid-cols-2 btn btn-active mx-2 sm:mx-4 mr-4 sm:mr-12 bg-base-100 lg:grow-0 lg:basis-1 grow basis-0 flex-col px-2 lg:w-auto lg:text-2xl text-2xl sm:text-3xl md:text-4xl py-6 sm:py-10 lg:py-4 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-    href="https://www.gofundme.com/f/london-trans-pride-2025"
-    >Donate</a
-  >
-  <h1
-    class="lg:hidden lg:sr-only lg:grow-0 lg:basis-0 grow basis-0 text-4xl sm:text-6xl text-base-100 justify-center"
-  >
-    <a href="/">
-      <b>LT+P</b>
-    </a>
-  </h1>
-  <div
-    role="tablist"
-    aria-label="Main site pages"
-    class="hidden lg:flex lg:w-auto w-0 tabs tabs-lifted lg:space-x-4 px-4 sm:px-12"
-  >
-    <a
-      role="tab"
-      id="home"
-      href="/"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >Home</a
-    >
-    <a
-      role="tab"
-      id="about"
-      href="/about"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >About</a
-    >
-    <a
-      role="tab"
-      id="mission"
-      href="/mission"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >Mission</a
-    >
-    <a
-      role="tab"
-      id="ltpnavbutton"
-      href="/ltp"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >LT+P 2025</a
-    >
-    <a
-      role="tab"
-      id="faq"
-      href="/faq"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >FAQ</a
-    >
-    <a
-      role="tab"
-      id="stewarding"
-      href="/stewarding"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >Stewarding</a
-    >
-    <a
-      role="tab"
-      id="resources"
-      href="/resources"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >Resources</a
-    >
-    <a
-      role="tab"
-      id="contact"
-      href="/contact"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >Contact</a
-    >
-    <a
-      role="tab"
-      id="donate"
-      href="https://www.gofundme.com/f/london-trans-pride-2025"
-      class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-xl h-10 text-neutral focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-      >Donate</a
-    >
+<a href="#main-content" class="skip-link sr-only focus:not-sr-only">Skip to main content</a>
+
+<nav aria-label="Main navigation" class="navbar relative bg-primary p-0 px-4 sm:px-8 md:px-12 lg:px-16 min-w-full">
+  
+  <!-- Mobile Header (visible on mobile only) -->
+  <div class="lg:hidden flex-auto justify-between py-6 sm:py-10 min-h-20 sm:min-h-24">
+    <!-- Logo -->
+    <h1 class="text-4xl sm:text-6xl text-base-100">
+      <a href="/" class="font-bold mr-12 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        LT+P
+      </a>
+    </h1>
+    
+    <!-- Donate Button -->
+    <!-- <a class="btn btn-active bg-base-100 text-primary px-4 sm:px-6 py-3 sm:py-4 text-lg sm:text-xl font-medium rounded-md mr-4 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
+       href="https://www.gofundme.com/f/london-trans-pride-2025">
+      Donate
+    </a> -->
+    
+    <!-- Hamburger Menu Button -->
+    <button id="mobile-menu-button" 
+            class="hamburger w-16 h-16 sm:w-20 sm:h-20 flex flex-col justify-center items-center space-y-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
+            aria-label="Toggle mobile menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu">
+      <span class="hamburger-line line1 block w-10 sm:w-14 h-1.5 sm:h-2 bg-base-100"></span>
+      <span class="hamburger-line line2 block w-10 sm:w-14 h-1.5 sm:h-2 bg-base-100"></span>
+      <span class="hamburger-line line3 block w-10 sm:w-14 h-1.5 sm:h-2 bg-base-100"></span>
+    </button>
   </div>
-  <div
-    aria-label="Mobile menu"
-    class="lg:sr-only lg:hidden grow basis-0 dropdown dropdown-end"
-  >
-    <div
-      tabindex="0"
-      role="button"
-      aria-haspopup="true"
-      aria-expanded="false"
-      class="btn btn-ghost flex justify-end h-auto focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-    >
-      <div class="w-12 h-12 sm:w-16 sm:h-16">
-        <img
-          alt="Open menu"
-          src="/img/burger.svg"
-          aria-hidden="true"
-          role="presentation"
-        />
-      </div>
+
+  <!-- Desktop Navigation (visible on desktop only) -->
+  <div class="hidden lg:flex lg:min-h-12 lg:justify-center lg:items-end py-4 w-full">
+    <div role="tablist" aria-label="Main site pages" class="flex justify-center space-x-4">
+      <a role="tab" id="home" href="/" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        Home
+      </a>
+      <a role="tab" id="about" href="/about" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        About
+      </a>
+      <a role="tab" id="ltpnavbutton" href="/ltp" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        LT+P 2025
+      </a>
+      <a role="tab" id="faq" href="/faq" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        FAQ
+      </a>
+      <a role="tab" id="stewarding" href="/stewarding" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        Stewarding
+      </a>
+      <a role="tab" id="resources" href="/resources" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        Resources
+      </a>
+      <a role="tab" id="contact" href="/contact" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        Contact
+      </a>
+      <a role="tab" id="donate" href="https://www.gofundme.com/f/london-trans-pride-2025" 
+         class="tab btn-ghost text-2xl h-10 text-neutral px-4 py-2 focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary">
+        Donate
+      </a>
     </div>
-    <ul
-      tabindex="0"
-      id="navburgerlist"
-      class="text-center divide-x divide-solid menu-vertical menu-lg gap-6 sm:gap-12 py-6 sm:py-9 lg:menu-horizontal bg-primary text-base-100 rounded-box dropdown-content"
-    >
-      <hr />
-      <li>
-        <a
-          href="/"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >Home</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/about"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >About</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/mission"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >Mission</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/ltp"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >LT+P 2025</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/faq"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >FAQ</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/stewarding"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >Stewarding</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/resources"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >Resources</a
-        >
-      </li>
-      <hr />
-      <li>
-        <a
-          href="/contact"
-          class="btn btn-nav-menu text-neutral text-3xl sm:text-5xl focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-          >Contact</a
-        >
-      </li>
-    </ul>
   </div>
 </nav>
+
+<!-- Mobile Menu Backdrop -->
+<div id="mobile-backdrop" class="backdrop lg:hidden fixed inset-0 z-40"></div>
+
+<!-- Mobile Menu Overlay -->
+<div id="mobile-menu" 
+     class="mobile-menu lg:hidden fixed top-0 right-0 h-full w-96 max-w-full bg-primary shadow-xl z-50 overflow-y-auto"
+     role="dialog" 
+     aria-modal="true" 
+     aria-labelledby="mobile-menu-title">
+  
+  <!-- Mobile Menu Header -->
+  <div class="flex items-center justify-end p-2 border-b border-base-100 border-opacity-20">
+    <button id="mobile-menu-close" 
+            class="h-auto w-auto text-base-100 hover:bg-base-100 hover:bg-opacity-10 rounded-full transition-colors"
+            aria-label="Close menu">
+      <span class="text-8xl">&times;</span>
+    </button>
+  </div>
+  
+  <!-- Mobile Menu Items -->
+  <nav class="py-6">
+    <ul class="space-y-2">
+      <li>
+        <a href="/" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="/about" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/ltp" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          LT+P 2025
+        </a>
+      </li>
+      <li>
+        <a href="/faq" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          FAQ
+        </a>
+      </li>
+      <li>
+        <a href="/stewarding" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          Stewarding
+        </a>
+      </li>
+      <li>
+        <a href="/resources" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          Resources
+        </a>
+      </li>
+      <li>
+        <a href="/contact" 
+           class="flex items-center px-6 py-6 text-4xl sm:text-6xl text-base-100 hover:bg-base-100 hover:bg-opacity-10 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+          Contact
+        </a>
+      </li>
+    </ul>
+    
+    <!-- Donate Button in Mobile Menu -->
+    <div class="px-6 pt-6 border-t border-base-100 border-opacity-20 mt-6">
+      <a href="https://www.gofundme.com/f/london-trans-pride-2025" 
+         class="block w-full text-center bg-base-100 text-primary py-6 px-6 rounded-lg text-2xl sm:text-3xl font-medium hover:bg-opacity-90 transition-colors focus:outline-dashed focus:outline-2 focus:outline-offset-2 focus:outline-base-100">
+        Donate
+      </a>
+    </div>
+  </nav>
+</div>
+
+<style>
+  .mobile-menu {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mobile-menu.open {
+    transform: translateX(0);
+  }
+  
+  .hamburger-line {
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger.open .line1 {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+  
+  .hamburger.open .line2 {
+    opacity: 0;
+  }
+  
+  .hamburger.open .line3 {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  
+  .backdrop {
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .backdrop.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+</style>
+
 <script>
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const mobileBackdrop = document.getElementById('mobile-backdrop');
+  const mobileMenuClose = document.getElementById('mobile-menu-close');
+  
+  let isMenuOpen = false;
+  
+  function toggleMobileMenu() {
+    isMenuOpen = !isMenuOpen;
+    
+    if (isMenuOpen) {
+      openMobileMenu();
+    } else {
+      closeMobileMenu();
+    }
+  }
+  
+  function openMobileMenu() {
+    mobileMenu.classList.add('open');
+    mobileBackdrop.classList.add('open');
+    mobileMenuButton.classList.add('open');
+    mobileMenuButton.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+    
+    const firstMenuItem = mobileMenu.querySelector('a');
+    if (firstMenuItem) {
+      firstMenuItem.focus();
+    }
+  }
+  
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    mobileBackdrop.classList.remove('open');
+    mobileMenuButton.classList.remove('open');
+    mobileMenuButton.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    isMenuOpen = false;
+  }
+  
+  mobileMenuButton.addEventListener('click', toggleMobileMenu);
+  mobileMenuClose.addEventListener('click', closeMobileMenu);
+  mobileBackdrop.addEventListener('click', closeMobileMenu);
+  
+  const menuItems = mobileMenu.querySelectorAll('a');
+  menuItems.forEach(item => {
+    item.addEventListener('click', closeMobileMenu);
+  });
+  
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && isMenuOpen) {
+      closeMobileMenu();
+      mobileMenuButton.focus();
+    }
+  });
+  
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1024 && isMenuOpen) {
+      closeMobileMenu();
+    }
+  });
+  
+  // Active tab highlighting
   let el;
-  if (location.pathname == "/") {
+  if (location.pathname === "/") {
     el = document.getElementById("home");
   } else {
     el = document.getElementById(
@@ -192,6 +260,5 @@
   }
   if (el) {
     el.classList.add("tab-active");
-    el.classList.add("text-primary");
   }
 </script>

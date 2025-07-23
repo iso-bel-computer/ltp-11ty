@@ -2,13 +2,18 @@
 module.exports = {
   content: ["./src/**/*.html", "./.eleventy.js"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        header: '#f1c232',
+        link: '#f1c232',
+      },
+    },
   },
   daisyui: {
     themes: [
       {
         dark: {
-          "primary": "#b79bdb",
+          "primary": "#f595ac",
           "secondary": "#c8f599",
           "accent": "#bf8c00",
           "neutral": "#07101c",

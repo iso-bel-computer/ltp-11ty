@@ -10,80 +10,346 @@
         id="main-content"
         tabindex="-1"
       >
-        <article class="flex flex-col lg:gap-8 gap-6 sm:gap-12">
-          <h1 class="lg:text-7xl text-5xl sm:text-8xl text-center">About Us</h1>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            London Trans+ Pride (LTP) is a grassroots trans-led community
-            organisation, operating as a collective of volunteers for and with
-            the trans+ community in the UK. We are responsible for organising
-            the annual London Trans+ Pride march since 2018. Our most recent
-            march in 2023 gathered more than 35,000 people marching in support
-            of trans+, non-binary, gender non-conforming and intersex lives and
-            made LTP the largest trans-focused annual gathering in the UK. At
-            its core, the London Trans+ Pride march is a protest. We are calling
-            for equity via positive legislative change and radical improvement
-            to our education and public healthcare system to recognise and
-            support the needs of trans+ people as much as those of anyone else
-            living in the UK.
-          </p>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            Since 2018, we have also hosted trans-inclusion workshops for some
-            of our corporate donors. In light of the limited, exclusionary and
-            often negative framing of trans+ lives in UK mainstream media, we
-            attempt to provide a platform for trans+ voices to be heard and seen
-            as much as possible. Besides our march, some of the ways we have
-            achieved this so far have been through our combined social media
-            reach of over 50,000 people, which we use to amplify different
-            trans+ collectives, organisations and individuals; community-led
-            research projects as a means of gathering our own data; and using
-            existing platforms, such as Glastonbury Festival where we have an
-            annual space, to host workshops, talk to members of the public and
-            celebrate some of the best trans+ performers and creatives from
-            London's nightlife scene.
-          </p>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            In 2022 we were honoured to receive the Gay Times Future Fighter
-            Award, which we accepted on behalf of the wider trans+ community. We
-            see this award as a reminder that our LGBTQ+ community cannot be
-            divided despite growing attempts from so called 'gender-critical'
-            organisations here in the UK.
-          </p>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            Leading up to our fifth year as LTP organisers, we want to use this
-            momentum to expand the scope of our work in our attempts to counter
-            the rising hostility towards trans+ people in the UK today. We plan
-            to do this through further developing our anti-oppression and
-            trans-inclusive training programme, enhancing our community
-            infrastructure provisions, amplifying our campaigning and research
-            capabilities, as well as collaborating with partners around
-            strategic litigation.
-          </p>
-          <hr />
-          <h2 class="lg:text-5xl text-2xl sm:text-7xl">How we work</h2>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            Over the past five years our core group has shifted and grown to a
-            team of 12+ volunteers. Our core team is entirely trans+, working on
-            a volunteering basis from home, meeting 1-2 times per week in person
-            or over Zoom. We each take initiative and responsibility for one key
-            area (community, liaison, events, press, marketing & comms, finance)
-            which we work on collectively with any other team member that is
-            available and keen to help out. We collectively share
-            responsibilities for organisational development and strategy.
-          </p>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            Our governance structure is based on sociocracy (consent of all),
-            while more day-to-day operational decisions in need of quick
-            progress are decided democratically (majority vote).
-          </p>
-          <p class="lg:text-2xl text-5xl leading-snug">
-            Any donations and crowdsourced funding thus far have exclusively
-            been used to cover operational expenses (excl. staff hours), march
-            organisation and delivery. Exemplary expenses are: speaker fees,
-            producing graphic and campaign material, water supply for the march,
-            hiring AV equipment for the march, transportation of equipment and
-            venue hire.
-          </p>
-        </article>
+        <h1
+          class="collapse-title lg:text-7xl text-5xl sm:text-8xl text-center font-bold mb-8"
+        >
+          About Us
+        </h1>
+
+        <div class="join join-vertical bg-base-100">
+          <!-- Who We Are Section -->
+          <div class="collapse collapse-arrow rounded-none">
+            <input type="checkbox" name="who-we-are" checked />
+            <div
+              class="collapse-title lg:text-5xl text-2xl sm:text-6xl text-base-100 font-bold bg-primary rounded-md my-8"
+              role="heading"
+              aria-level="2"
+            >
+              Who We Are
+            </div>
+            <div
+              class="collapse-content flex flex-col lg:gap-8 gap-6 sm:gap-12"
+            >
+              <h2
+                class="lg:text-4xl text-xl sm:text-5xl text-white font-bold text-center mt-12"
+              >
+                London Trans+ Pride (LT+P) is the world's largest annual
+                demonstration in support of trans, non-binary, gender
+                non-conforming, and intersex lives.
+              </h2>
+
+              {% include 'tilde-break.html' %}
+
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Established in 2019 as a response, in part, to a highly-visible
+                act of transphobia by a "gender critical" group during a major
+                pride event,
+                <span class="font-bold text-header">LT+P is a reaction:</span>
+              </p>
+
+              <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-8">
+                <li>
+                  <p class="lg:text-2xl text-5xl leading-snug">
+                    to the violence and hatred that we and our siblings are
+                    subjected to around the world every day.
+                  </p>
+                </li>
+                <li>
+                  <p class="lg:text-2xl text-5xl leading-snug">
+                    to the pinkwashing and sanitisation of pride by disingenuous
+                    corporations who eagerly exploit us, reaping financial gain
+                    from shallow seasonal shows of support while they decline to
+                    take meaningful financial action that supports real change.
+                  </p>
+                </li>
+                <li>
+                  <p class="lg:text-2xl text-5xl leading-snug">
+                    to the sowing of false divisions that would position our
+                    struggle for liberation as being at odds with that of women
+                    or the rest of the queer community.
+                  </p>
+                </li>
+                <li>
+                  <p class="lg:text-2xl text-5xl leading-snug">
+                    to the mounting tide of cultural paranoia and political
+                    scaremongering that has taken root in every major UK
+                    institution, and that seeks to see us legislated out of
+                    existence and our rights stripped back to the days of
+                    Section 28.
+                  </p>
+                </li>
+              </ul>
+
+              {% include 'tilde-break.html' %}
+
+              <p class="lg:text-2xl text-5xl leading-snug">
+                As trans+ people we are so often dismissed; our very existences
+                questioned, debated, denied. Our needs, our joys, our pain, our
+                realities, considered unworthy of being taken seriously.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                LT+P is a means to carve out a space for our community to make
+                ourselves heard, to be unashamed and unafraid, and to be
+                celebrated and honoured as an act of resistance in the face of
+                hatred and fear.
+              </p>
+
+              {% include 'tilde-break.html' %}
+
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Now in its 7th year, London Trans+ Pride continues to be a
+                trans-led, community-first effort in the continuing fight for
+                liberation.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                We stand in solidarity and in a joint struggle with people of
+                all marginalized communities against political oppression,
+                erasure, systemic inequality, and the ever-present grip of
+                fascism that seeks to deny us all the same human rights.
+              </p>
+
+              {% include 'tilde-break.html' %}
+
+              <h2
+                class="lg:text-2xl text-5xl leading-snug text-white font-bold text-center"
+              >
+                We believe that Trans+ Rights are Human Rights.
+              </h2>
+              <h2
+                class="lg:text-2xl text-5xl leading-snug text-white font-bold text-center"
+              >
+                We believe that none of us can be free until we are all free.
+              </h2>
+              <h2
+                class="lg:text-2xl text-5xl leading-snug text-white font-bold text-center"
+              >
+                We believe that Pride is a Protest.
+              </h2>
+              <h2
+                class="lg:text-2xl text-5xl leading-snug text-white font-bold text-center"
+              >
+                We believe in Love + Rage.
+              </h2>
+              <h2
+                class="lg:text-2xl text-5xl leading-snug text-white font-bold text-center"
+              >
+                🏳️‍⚧️✊❤️‍🔥
+              </h2>
+            </div>
+          </div>
+
+          <!-- Our Mission Section -->
+          <div class="collapse collapse-arrow rounded-none">
+            <input type="checkbox" name="who-we-are" />
+            <div
+              class="collapse-title lg:text-5xl text-2xl sm:text-6xl text-base-100 font-bold bg-primary rounded-md my-8"
+              role="heading"
+              aria-level="2"
+            >
+              Our Mission
+            </div>
+            <div
+              class="collapse-content flex flex-col lg:gap-8 gap-6 sm:gap-12"
+            >
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Drawing inspiration from pride's origins as an intersectional
+                protest against violence and erasure, and from the contemporary
+                national movements that came before us (i.e. Queer Picnic, UK
+                Black Pride, Trans+ Pride Brighton); LT+P exists to serve many
+                goals for many people.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                As an organisation and a demonstration, our mission is:
+              </p>
+              <blockquote
+                class="lg:text-2xl text-5xl leading-snug font-bold italic border-l-4 border-primary pl-6 my-6"
+              >
+                “To grow a community-facing, grassroots pride celebration and
+                protest organised by and for trans+, non-binary, gender
+                non-conforming and intersex people as a means of pushing for
+                social and political change in the UK's capital; and as a means
+                of highlighting, celebrating, and holding space for our needs,
+                struggles, successes, and experiences in a climate where trans+
+                voices often go unheard.”
+              </blockquote>
+              {% include 'tilde-break.html' %}
+              <p class="lg:text-2xl text-5xl leading-snug">
+                The world we work towards is defined by justice, social equity,
+                and fairness.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                It is a world where no-one has to fight for their basic rights,
+                as we and so many others are doing today; where the unique
+                healthcare needs of our community are well-provided for by the
+                public healthcare system; where it is not the responsibility of
+                trans+ people to repeatedly educate others about our needs and
+                histories; where we can live as our truest selves without being
+                at risk of discrimination and violence; where we can go to work
+                and don't have to perform an idea of gender that does not align
+                with our own; where the protection of our rights is guaranteed.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                All our work is aimed at supporting the transition to a society
+                that is equitable and just for all.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Our specific role in this transition is to speak and work for
+                the unique needs of trans+ people living in the UK. We seek to
+                collaborate and engage with fellow community groups, wider
+                organisations, trans+ community members, as well as allies in
+                order to work towards this shared goal.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                We recognise our unique position as a trans-led and
+                trans-centred community organisation that is based in London,
+                which is home to core governmental, legal and financial
+                institutions.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                We hope to use this position to ultimately leverage for positive
+                change and bring together the efforts and voices of trans+
+                organisations and individuals across the UK and beyond.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Looking ahead to the distant future of our organisation, we hope
+                that there will no longer be a need for London Trans+ Pride to
+                exist in its current form as a catalyst for protest and systemic
+                change, but rather that it will be able to exist as a
+                commemorative celebration of our hard-won rights.
+              </p>
+            </div>
+          </div>
+
+          <!-- About the Team Section -->
+          <div class="collapse collapse-arrow rounded-none">
+            <input type="checkbox" name="who-we-are" />
+            <div
+              class="collapse-title lg:text-5xl text-2xl sm:text-6xl text-base-100 font-bold bg-primary rounded-md my-8"
+              role="heading"
+              aria-level="2"
+            >
+              About the Team
+            </div>
+            <div
+              class="collapse-content flex flex-col lg:gap-8 gap-6 sm:gap-12"
+            >
+              <h2
+                class="lg:text-4xl text-xl sm:text-5xl text-white font-bold text-center mt-12"
+              >
+                London Trans+ Pride (LT+P) is a grassroots trans, non-binary &
+                intersex-run community organisation, operating as a collective
+                of volunteers for and with the trans+ community in the UK.
+              </h2>
+              {% include 'tilde-break.html' %}
+              <p class="lg:text-2xl text-5xl leading-snug">
+                We've worked together to organise the annual London Trans+ Pride
+                demo since 2019, and in that time our team has grown from under
+                5 “full-time” members to a Core Team membership of 30+, many of
+                whom contribute year-round.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                This all-trans+ Core Team is a mix of many different
+                nationalities, identities, classes, races, ages, body types, and
+                abilities. Our respective backgrounds and experience span from
+                nightlife, art, and activism, all the way to finance,
+                production, business management, and academic research.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Equally crucial to our team, and to the annual success of the
+                march is LT+P's active and several hundred-strong network of
+                volunteers, supporters, regular collaborators, partners, and
+                groups from within the local community.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                In addition to the preparation that goes into the march itself -
+                i.e. comms, social media, copywriting, graphic design,
+                scheduling, site visits, steward training, meetings - we're
+                involved in hosting trans-inclusion talks and community film
+                screenings, research projects, speaking on panels and at
+                conferences, running workshops and donation drives, and
+                supporting joint solidarity campaigns.
+              </p>
+              {% include 'tilde-break.html' %}
+              <p class="lg:text-2xl text-5xl leading-snug">
+                In 2022 we were honoured with the Gay Times Future Fighter
+                Award, which we accepted in dedication to the wider trans+
+                community. We see this award as a reminder that our LGBTQ+
+                community cannot be divided, despite growing attempts from so
+                called 'gender-critical' organisations here in the UK; and that
+                as organisers, we are only one small piece in a movement much
+                bigger and more significant than any of us alone.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                We hope to continue building momentum and to eventually expand
+                the scope of our work - and what London Trans+ Pride can give
+                back to the community that fuels it - by enhancing our community
+                and accessibility infrastructure provisions, amplifying our
+                campaigning and research capabilities, and collaborating with
+                partners around strategic litigation.
+              </p>
+            </div>
+          </div>
+
+          <!-- How we Work Section -->
+          <div class="collapse collapse-arrow rounded-none">
+            <input type="checkbox" name="who-we-are" />
+            <div
+              class="collapse-title lg:text-5xl text-2xl sm:text-6xl text-base-100 font-bold bg-primary rounded-md my-8"
+              role="heading"
+              aria-level="2"
+            >
+              How We Work
+            </div>
+            <div
+              class="collapse-content flex flex-col lg:gap-8 gap-6 sm:gap-12"
+            >
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Our governance structure is based on sociocracy (consent of
+                all), while more day-to-day operational decisions in need of
+                quick progress are decided democratically (majority vote).
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                We aim to run our team in a horizontal and non-hierarchical
+                manner that seeks to give every member equal opportunity and
+                influence within the group.
+              </p>
+              {% include 'tilde-break.html' %}
+              <h2
+                class="lg:text-4xl text-xl sm:text-5xl text-white font-bold text-center mt-12"
+              >
+                London Trans+ Pride runs primarily on small and medium donations
+                from individuals, community groups, and events.
+              </h2>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                As team members, we make no personal profit or financial gain
+                from our contributions beyond a small stipend for time and
+                labour, reimbursements for essential travel/ food/supplies when
+                necessary, and a single, small team dinner per year.
+              </p>
+              {% include 'tilde-break.html' %}
+              <p class="lg:text-2xl text-5xl leading-snug text-header">
+                Donations and crowdsourced funding go chiefly towards covering
+                operational expenses, march production, and logistics.
+              </p>
+              <p class="lg:text-2xl text-5xl leading-snug">
+                Exemplary expenses include:
+              </p>
+              <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-8">
+                <li>Speaker honoraria (capped at £100)</li>
+                <li>Producing graphic and campaign material</li>
+                <li>Hydration station supplies</li>
+                <li>AV equipment hire</li>
+                <li>Transportation of equipment</li>
+                <li>Insurance</li>
+                <li>BSL interpreter fees</li>
+                <li>Accessible toilets</li>
+                <li>Venue hire</li>
+                <li>Professional subscriptions</li>
+                <li>Fiscal hosting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
     {% include 'footer.html' %}
